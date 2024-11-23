@@ -1,0 +1,6 @@
+framework module Pods_SpyneIOSMainAssessment_SpyneIOSMainAssessmentUITests {
+  umbrella header "Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2417231E6AEB06E4879C7C1D /* Pods_SpyneIOSMainAssessment_SpyneIOSMainAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2837B35B17018AD21497AEE7 /* Pods_SpyneIOSMainAssessment_SpyneIOSMainAssessmentUITests.framework */; };
 		61FC15C52CF0B733008F43EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15C42CF0B733008F43EE /* AppDelegate.swift */; };
 		61FC15C72CF0B733008F43EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15C62CF0B733008F43EE /* SceneDelegate.swift */; };
 		61FC15C92CF0B733008F43EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15C82CF0B733008F43EE /* ViewController.swift */; };
@@ -16,6 +17,16 @@
 		61FC15DC2CF0B736008F43EE /* SpyneIOSMainAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15DB2CF0B736008F43EE /* SpyneIOSMainAssessmentTests.swift */; };
 		61FC15E62CF0B736008F43EE /* SpyneIOSMainAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15E52CF0B736008F43EE /* SpyneIOSMainAssessmentUITests.swift */; };
 		61FC15E82CF0B736008F43EE /* SpyneIOSMainAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15E72CF0B736008F43EE /* SpyneIOSMainAssessmentUITestsLaunchTests.swift */; };
+		61FC15F92CF0E53A008F43EE /* ImageRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15F82CF0E53A008F43EE /* ImageRecord.swift */; };
+		61FC15FB2CF0E5AA008F43EE /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15FA2CF0E5AA008F43EE /* CameraViewModel.swift */; };
+		61FC15FE2CF0E6D2008F43EE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15FD2CF0E6D2008F43EE /* DatabaseManager.swift */; };
+		61FC16002CF0E7E1008F43EE /* ImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC15FF2CF0E7E1008F43EE /* ImageListView.swift */; };
+		61FC16022CF0E87B008F43EE /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC16012CF0E87B008F43EE /* ImageListViewModel.swift */; };
+		61FC16042CF0EA46008F43EE /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC16032CF0EA46008F43EE /* ImageUploader.swift */; };
+		61FC16062CF104BF008F43EE /* ImageListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC16052CF104BF008F43EE /* ImageListCell.swift */; };
+		61FC16082CF1A9D7008F43EE /* ImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC16072CF1A9D7008F43EE /* ImageListViewController.swift */; };
+		E5DB79B8D7B3C06BE7A9793F /* Pods_SpyneIOSMainAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FFEC29ACEBF9B34E73050B /* Pods_SpyneIOSMainAssessmentTests.framework */; };
+		E785341A00717B6A7DE37423 /* Pods_SpyneIOSMainAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A021A524C98633766D38C66F /* Pods_SpyneIOSMainAssessment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08FFEC29ACEBF9B34E73050B /* Pods_SpyneIOSMainAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyneIOSMainAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2837B35B17018AD21497AEE7 /* Pods_SpyneIOSMainAssessment_SpyneIOSMainAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyneIOSMainAssessment_SpyneIOSMainAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FC15C12CF0B733008F43EE /* SpyneIOSMainAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyneIOSMainAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FC15C42CF0B733008F43EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61FC15C62CF0B733008F43EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		61FC15E12CF0B736008F43EE /* SpyneIOSMainAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyneIOSMainAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FC15E52CF0B736008F43EE /* SpyneIOSMainAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyneIOSMainAssessmentUITests.swift; sourceTree = "<group>"; };
 		61FC15E72CF0B736008F43EE /* SpyneIOSMainAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyneIOSMainAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61FC15F82CF0E53A008F43EE /* ImageRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecord.swift; sourceTree = "<group>"; };
+		61FC15FA2CF0E5AA008F43EE /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		61FC15FD2CF0E6D2008F43EE /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		61FC15FF2CF0E7E1008F43EE /* ImageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListView.swift; sourceTree = "<group>"; };
+		61FC16012CF0E87B008F43EE /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		61FC16032CF0EA46008F43EE /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		61FC16052CF104BF008F43EE /* ImageListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListCell.swift; sourceTree = "<group>"; };
+		61FC16072CF1A9D7008F43EE /* ImageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewController.swift; sourceTree = "<group>"; };
+		670E6D604297C9F82FCBC512 /* Pods-SpyneIOSMainAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneIOSMainAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-SpyneIOSMainAssessmentTests/Pods-SpyneIOSMainAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68B4B37A365DC54D0BE40ED8 /* Pods-SpyneIOSMainAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneIOSMainAssessment.release.xcconfig"; path = "Target Support Files/Pods-SpyneIOSMainAssessment/Pods-SpyneIOSMainAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		9EFB1F504720902470C7C9C6 /* Pods-SpyneIOSMainAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneIOSMainAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-SpyneIOSMainAssessmentTests/Pods-SpyneIOSMainAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F6195CF6C45115263353CC2 /* Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A021A524C98633766D38C66F /* Pods_SpyneIOSMainAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyneIOSMainAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C8BCF2BA827384F12B5D7D /* Pods-SpyneIOSMainAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneIOSMainAssessment.debug.xcconfig"; path = "Target Support Files/Pods-SpyneIOSMainAssessment/Pods-SpyneIOSMainAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9EF740106AD20B10EF431B /* Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E785341A00717B6A7DE37423 /* Pods_SpyneIOSMainAssessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DB79B8D7B3C06BE7A9793F /* Pods_SpyneIOSMainAssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2417231E6AEB06E4879C7C1D /* Pods_SpyneIOSMainAssessment_SpyneIOSMainAssessmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		596681AB3E5120DC1EA7609A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8BCF2BA827384F12B5D7D /* Pods-SpyneIOSMainAssessment.debug.xcconfig */,
+				68B4B37A365DC54D0BE40ED8 /* Pods-SpyneIOSMainAssessment.release.xcconfig */,
+				ED9EF740106AD20B10EF431B /* Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.debug.xcconfig */,
+				9F6195CF6C45115263353CC2 /* Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.release.xcconfig */,
+				670E6D604297C9F82FCBC512 /* Pods-SpyneIOSMainAssessmentTests.debug.xcconfig */,
+				9EFB1F504720902470C7C9C6 /* Pods-SpyneIOSMainAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CC705BA0AFDA05ED3941392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A021A524C98633766D38C66F /* Pods_SpyneIOSMainAssessment.framework */,
+				2837B35B17018AD21497AEE7 /* Pods_SpyneIOSMainAssessment_SpyneIOSMainAssessmentUITests.framework */,
+				08FFEC29ACEBF9B34E73050B /* Pods_SpyneIOSMainAssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		61FC15B82CF0B733008F43EE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				61FC15DA2CF0B736008F43EE /* SpyneIOSMainAssessmentTests */,
 				61FC15E42CF0B736008F43EE /* SpyneIOSMainAssessmentUITests */,
 				61FC15C22CF0B733008F43EE /* Products */,
+				596681AB3E5120DC1EA7609A /* Pods */,
+				5CC705BA0AFDA05ED3941392 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +155,11 @@
 		61FC15C32CF0B733008F43EE /* SpyneIOSMainAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				61FC15FC2CF0E6B6008F43EE /* Managers */,
+				61FC15F72CF0E310008F43EE /* Utilities */,
+				61FC15F62CF0E2FF008F43EE /* ViewModel */,
+				61FC15F52CF0E2F7008F43EE /* View */,
+				61FC15F42CF0E2E8008F43EE /* Model */,
 				61FC15C42CF0B733008F43EE /* AppDelegate.swift */,
 				61FC15C62CF0B733008F43EE /* SceneDelegate.swift */,
 				61FC15C82CF0B733008F43EE /* ViewController.swift */,
@@ -106,6 +167,8 @@
 				61FC15CD2CF0B736008F43EE /* Assets.xcassets */,
 				61FC15CF2CF0B736008F43EE /* LaunchScreen.storyboard */,
 				61FC15D22CF0B736008F43EE /* Info.plist */,
+				61FC16052CF104BF008F43EE /* ImageListCell.swift */,
+				61FC16072CF1A9D7008F43EE /* ImageListViewController.swift */,
 			);
 			path = SpyneIOSMainAssessment;
 			sourceTree = "<group>";
@@ -127,6 +190,47 @@
 			path = SpyneIOSMainAssessmentUITests;
 			sourceTree = "<group>";
 		};
+		61FC15F42CF0E2E8008F43EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61FC15F82CF0E53A008F43EE /* ImageRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61FC15F52CF0E2F7008F43EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61FC15FF2CF0E7E1008F43EE /* ImageListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61FC15F62CF0E2FF008F43EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				61FC15FA2CF0E5AA008F43EE /* CameraViewModel.swift */,
+				61FC16012CF0E87B008F43EE /* ImageListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61FC15F72CF0E310008F43EE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				61FC16032CF0EA46008F43EE /* ImageUploader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		61FC15FC2CF0E6B6008F43EE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				61FC15FD2CF0E6D2008F43EE /* DatabaseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC15EB2CF0B736008F43EE /* Build configuration list for PBXNativeTarget "SpyneIOSMainAssessment" */;
 			buildPhases = (
+				C53DBCE4F35E66D428983561 /* [CP] Check Pods Manifest.lock */,
 				61FC15BD2CF0B733008F43EE /* Sources */,
 				61FC15BE2CF0B733008F43EE /* Frameworks */,
 				61FC15BF2CF0B733008F43EE /* Resources */,
+				D628E9C99CB46055C99D35A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC15EE2CF0B736008F43EE /* Build configuration list for PBXNativeTarget "SpyneIOSMainAssessmentTests" */;
 			buildPhases = (
+				7A36154E09229DD40E77B9D3 /* [CP] Check Pods Manifest.lock */,
 				61FC15D32CF0B736008F43EE /* Sources */,
 				61FC15D42CF0B736008F43EE /* Frameworks */,
 				61FC15D52CF0B736008F43EE /* Resources */,
@@ -169,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC15F12CF0B736008F43EE /* Build configuration list for PBXNativeTarget "SpyneIOSMainAssessmentUITests" */;
 			buildPhases = (
+				54289E9296777D97704BFEB1 /* [CP] Check Pods Manifest.lock */,
 				61FC15DD2CF0B736008F43EE /* Sources */,
 				61FC15DE2CF0B736008F43EE /* Frameworks */,
 				61FC15DF2CF0B736008F43EE /* Resources */,
+				7B7C469A3DCDCB988E03162C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +362,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54289E9296777D97704BFEB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A36154E09229DD40E77B9D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpyneIOSMainAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7C469A3DCDCB988E03162C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests/Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53DBCE4F35E66D428983561 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpyneIOSMainAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D628E9C99CB46055C99D35A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpyneIOSMainAssessment/Pods-SpyneIOSMainAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpyneIOSMainAssessment/Pods-SpyneIOSMainAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpyneIOSMainAssessment/Pods-SpyneIOSMainAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61FC15BD2CF0B733008F43EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FC16082CF1A9D7008F43EE /* ImageListViewController.swift in Sources */,
 				61FC15C92CF0B733008F43EE /* ViewController.swift in Sources */,
+				61FC16062CF104BF008F43EE /* ImageListCell.swift in Sources */,
 				61FC15C52CF0B733008F43EE /* AppDelegate.swift in Sources */,
+				61FC15FE2CF0E6D2008F43EE /* DatabaseManager.swift in Sources */,
+				61FC16002CF0E7E1008F43EE /* ImageListView.swift in Sources */,
+				61FC15F92CF0E53A008F43EE /* ImageRecord.swift in Sources */,
+				61FC16042CF0EA46008F43EE /* ImageUploader.swift in Sources */,
+				61FC15FB2CF0E5AA008F43EE /* CameraViewModel.swift in Sources */,
+				61FC16022CF0E87B008F43EE /* ImageListViewModel.swift in Sources */,
 				61FC15C72CF0B733008F43EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +657,14 @@
 		};
 		61FC15EC2CF0B736008F43EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C8BCF2BA827384F12B5D7D /* Pods-SpyneIOSMainAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J6RK6VS64R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpyneIOSMainAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,12 +687,14 @@
 		};
 		61FC15ED2CF0B736008F43EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B4B37A365DC54D0BE40ED8 /* Pods-SpyneIOSMainAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J6RK6VS64R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpyneIOSMainAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,6 +717,7 @@
 		};
 		61FC15EF2CF0B736008F43EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670E6D604297C9F82FCBC512 /* Pods-SpyneIOSMainAssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +738,7 @@
 		};
 		61FC15F02CF0B736008F43EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFB1F504720902470C7C9C6 /* Pods-SpyneIOSMainAssessmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +759,7 @@
 		};
 		61FC15F22CF0B736008F43EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9EF740106AD20B10EF431B /* Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +778,7 @@
 		};
 		61FC15F32CF0B736008F43EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6195CF6C45115263353CC2 /* Pods-SpyneIOSMainAssessment-SpyneIOSMainAssessmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
